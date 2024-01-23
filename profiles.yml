@@ -1,0 +1,13 @@
+pg-dbt-workshop:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: ahona
+      password: ahona
+      port: 5432
+      dbname: production # or database instead of dbname
+      schema: dbt_kibira_vickie
+      threads: 4
+      

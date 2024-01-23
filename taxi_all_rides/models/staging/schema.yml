@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: production
+    schema: taxi_all_rides
+    tables:
+      - name: green_trips_data
+      - name: yellow_trips_data
